@@ -12,4 +12,4 @@ serve((req) => {
   output.push(word);
 
   return new Response(output.join('\n'));
-}
+});
